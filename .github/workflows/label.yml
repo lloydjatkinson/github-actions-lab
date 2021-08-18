@@ -5,12 +5,13 @@
 # file with configuration.  For more information, see:
 # https://github.com/actions/labeler
 
-name: Labeler
-  on: [pull_request]
+name: Assign PR Labels
+
+on:
+  [pull_request]
 
 jobs:
-  label:
-
+  example-label-assign:
     runs-on: ubuntu-latest
     permissions:
       contents: read
