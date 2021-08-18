@@ -1,0 +1,9 @@
+infrastructure:
+- .github/*
+- .github/**/*
+- infrastructure/*
+- infrastructure/**/*
+
+microservices:
+- microservices/*
+- microservices/**/*
